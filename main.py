@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from fastapi import FastAPI
-from langcorn import create_service
+# from langcorn import create_service
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, errors
 from app.conversation import conversation
