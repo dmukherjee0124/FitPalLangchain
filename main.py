@@ -27,6 +27,10 @@ class Output(BaseModel):
 
 app=FastAPI()
 
+@app.get("/")
+def read_root():
+    return "Hello world"
+
 @app.post("/conversation")
 async def input(input: Input):
     output = Output(output=conversation(input.age, input.goal, input.level, input.days, input.weeks, input.time, input.style, input.gym, input.health,input.current_week))
