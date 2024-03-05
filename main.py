@@ -39,7 +39,7 @@ async def input(input: Input):
 origins = [
     "<http://localhost>",
     "<http://localhost:5173>",
-        "...Your Domains..."
+    "https://fitpallangchain.onrender.com"
 ]
 
 app.add_middleware(
