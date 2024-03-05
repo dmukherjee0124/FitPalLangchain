@@ -36,6 +36,10 @@ async def input(input: Input):
     output = Output(output=conversation(input.age, input.goal, input.level, input.days, input.weeks, input.time, input.style, input.gym, input.health,input.current_week))
     return output
 
+@app.post("/test")
+async def test_post():
+    return {"message": "Test endpoint success"}
+
 origins = [
     "<http://localhost>",
     "<http://localhost:5173>",
