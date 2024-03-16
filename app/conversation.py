@@ -33,8 +33,8 @@ def conversation(age, goal, level, days, weeks, time, style, gym, health, curren
 
                         Any Health Considerations:{health}
 
-                        Create the first week in the form of - Week 1: Day 1: workout ...etc 
-                        (Dont give any extra information in the end)
+                        Create the first week in the form of - Week 1: Day 1: workout ...etc..till {days} days 
+                        (Dont give any extra information in the end!)
 
                         """
     promp = PromptTemplate(
@@ -73,9 +73,9 @@ def conversation(age, goal, level, days, weeks, time, style, gym, health, curren
 
                                     Any Health Considerations:{health}
 
-                                    Create the week in the form of - Week {current_week}: Day 1: workout ...etc 
+                                    Create the week in the form of - Week {current_week}: Day 1: workout ... till {days} days 
                                     Make the program more challenging than the previous week.
-                                    (Dont give any extra information in the end)
+                                    (Dont give any extra information in the end!)
 
                                     """
             promp = PromptTemplate(
