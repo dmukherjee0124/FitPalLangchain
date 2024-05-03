@@ -15,7 +15,7 @@ The API is built using FastAPI and requires Python 3.8 or higher. Follow these s
 
 1. Clone the repository:
    ```bash
-   git clone [URL to the repository]
+   git clone https://github.com/dmukherjee0124/FitPalLangchain.git
 2. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
