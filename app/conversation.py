@@ -33,7 +33,8 @@ def conversation(age, goal, level, days, weeks, time, style, gym, health, curren
 
                         Any Health Considerations:{health}
 
-                        Create the first week plan for only {days} days in the form of - Week 1: Day 1: workout...Day 2: workout... etc..till {days} days (Just mention {days} days and not the other days in a week)
+                        Create the first week plan for only {days} days in the form of - Week 1: Day 1: workout...Day 2: workout... etc..till {days} days
+                        (Just mention {days} days and not the other days in the week and dont add Rest days)
                         (Dont give any extra information in the end!)
 
                         """
